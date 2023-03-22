@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Verble</string>
+    <string name="name">Name</string>
+    <string name="play">PLAY!</string>
+    <string name="letterDisplay">_ _ _ _ _ _ _ _ _ _ _ _</string>
+    <string name="test">GUESS</string>
+    <string name="new_game">NEW GAME</string>
+    <string name="newGame">click \'new game\' to begin!</string>
+    <string name="high_scores">HIGH SCORES</string>
+    <string name="exit">EXIT</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="verb">verb</string>
+    <string name="a_word_used_to_describe_an_action_state_or_occurrence">a word used to describe an action, state, or occurrence</string>
+    <string name="view_verbs">View Verbs</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="50dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/tvVerb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/verb"
+        android:textColor="@color/green_verble"
+        android:textSize="35sp"
+        android:fontFamily="@font/hyshortsamul_medium"/>
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey_unused"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:paddingHorizontal="10dp"
+        android:text="@string/a_word_used_to_describe_an_action_state_or_occurrence"
+        android:textAlignment="textStart"
+        android:textColor="@color/grey_unused"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+    <View
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:background="@color/grey_unused" />
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

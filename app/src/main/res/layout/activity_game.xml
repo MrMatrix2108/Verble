@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingVertical="@dimen/cardview_compat_inset_shadow"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/imgVerbalLogo"
+        android:layout_width="350dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/verblelogo2" />
+
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:textAlignment="center"
+        android:textColor="@color/mustard"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvHintDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/mustard"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvLetterDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:shadowColor="#009000"
+        android:shadowDx="5"
+        android:shadowRadius="10"
+        android:text="@string/newGame"
+        android:textAlignment="center"
+        android:textColor="@color/green_verble"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/tvIncorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:shadowColor="#900000"
+        android:shadowDx="5"
+        android:shadowRadius="2"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/red_incorrect"
+        android:textSize="35sp" />
+
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green_verble"
+        android:enabled="true"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:shadowColor="#00AA00"
+        android:shadowDx="5"
+        android:shadowRadius="2"
+        android:text="@string/test"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="50sp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/tvGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:shadowColor="#EEAA44"
+        android:shadowDx="0"
+        android:shadowRadius="10"
+        android:text="Well Done!!"
+        android:textAlignment="center"
+        android:textColor="@color/mustard"
+        android:textSize="60sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:text="@string/new_game"
+        android:backgroundTint="@color/green_verble"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="35sp"
+        android:shadowColor="#00AA00"
+        android:shadowDx="5"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:text="answer"
+        android:textAlignment="center"
+        android:textColor="@color/grey_unused"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+</LinearLayout>

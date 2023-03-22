@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top|center"
+    android:background="@color/grey">
+
+    <ImageView
+        android:id="@+id/imgVerbalLogo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="186dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/verblelogo2" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:autofillHints="name"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:ems="15"
+        android:textSize="40sp"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:hint="@string/name"
+        android:text=""
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/green_verble"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green_verble"
+        android:text="@string/play"
+        android:textAlignment="center"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:textColor="@color/grey"
+        android:textSize="45sp"
+        android:shadowColor="#00AA00"
+        android:shadowDx="5"
+        android:shadowRadius="2"
+        />
+
+    <Button
+        android:id="@+id/btnGotoList"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mustard"
+        android:text="@string/view_verbs"
+        android:textAlignment="center"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:textColor="@color/grey"
+        android:textSize="45sp"
+        android:shadowColor="#CC8822"
+        android:shadowDx="5"
+        android:shadowRadius="2"
+        />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#DD0000"
+        android:text="@string/exit"
+        android:textAlignment="center"
+        android:fontFamily="@font/hyshortsamul_medium"
+        android:textColor="@color/grey"
+        android:textSize="45sp"
+        android:shadowColor="#900000"
+        android:shadowDx="5"
+        android:shadowRadius="2"
+        />
+
+</LinearLayout>
